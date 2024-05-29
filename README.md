@@ -23,7 +23,7 @@ Now we're ready to run our scripts and publish to the testnet and verify our con
 9. Run ```node registerI.js```. This only needs to be completed once.
 10. Run ```publish.js```. This will publish your content to the verify testnet as well as verify it! This can be run as many times as you want (as long as you have funds in your intermediate wallet). Feel free to change the content in the .env file if you would like to publish new content.
 
-## Congrats
+## Congratulations!
 Congrats! You have successfuly published and verified content on Verify!
 
 ## Problems Encountered
