@@ -10,7 +10,7 @@ Next, we're going to create our root and intermediate wallets. If you already ha
 5. Fund your intermediate wallet with Verify Matic by following these [steps](https://docs.verifymedia.com/verify-testnet)
 
 6. Make an account on [Pinata](https://www.pinata.cloud/) and create an API key. This will allow us to store our content on IPFS.
-7. In the .env file in the root directory, add the following info in the following categories:
+7. Create a .env file in the root directory, add the following info:
   - ROOT_WALLET: Your root wallet <b>private key. </b>
   - INTER_WALLET: Your intermediate wallet <b>private key</b>.
   - PINATA_KEY: Your Pinata API key.
