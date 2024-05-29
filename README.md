@@ -19,8 +19,8 @@ Next, we're going to create our root and intermediate wallets. If you already ha
 
 ## Usage
 Now we're ready to run our scripts and publish to the testnet and verify our content!
-8. In your command line terminal, run ```node registerR.js```. This will register your root wallet address with the network. This only needs to be completed once.
-9. Run ```node registerI.js```. This only needs to be completed once.
+8. In your command line terminal, run ```node registerR.js```. This will register your root wallet address with the network. This only needs to be completed once.<br>
+9. Run ```node registerI.js```. This only needs to be completed once.<br>
 10. Run ```publish.js```. This will publish your content to the verify testnet as well as verify it! This can be run as many times as you want (as long as you have funds in your intermediate wallet). Feel free to change the content in the .env file if you would like to publish new content.
 
 ## Congratulations!
