@@ -1,22 +1,3 @@
-## Verify
-
-This is a sample app to check basic features of verify.
-
-Please refer to the [Getting Started](https://docs.verifymedia.com/publishing/getting-started) guide for more info.
-
-## Network
-VERIFY Protocol is deployed on an Polygon CDK validium based appchain. 
-
-```
-Network Name: VERIFY Testnet
-RPC URL: https://rpc.verify-testnet.gelato.digital
-Chain ID: 1833
-Currency Symbol: MATIC
-Block Explorer URL: https://verify-testnet.blockscout.com/
-Settlement Layer: Amoy 
-```
-
-more details can be found [here](https://docs.verifymedia.com/verify-testnet).
 
 ## Setup
 First we're going to install npm and node.js, which will allow us to run our scripts. If you already have node and npm (or want to check), type ```node -v``` and ```npm -v```.
