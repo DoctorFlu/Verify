@@ -33,8 +33,3 @@ your root wallet address with the network. This only needs to be completed once.
 
 ## Congratulations!
 Congrats! You have successfuly published and verified content on Verify!
-
-## Problems Encountered
-1. Bridge didn't work originally (had to be fixed). Not sure if that was a problem on our end or on Gelato's
-2. When using gen-wallet.js to make wallets, you need to remove the 0x from the beginning of the private key. Had to remove the + "0x" from gen-wallet.js.
-3. when whoIs runs right after you register the intermediate wallet, it returns the null address. However, if you run it seperately, it works. It also registers the intermediate wallet correctly as well.
