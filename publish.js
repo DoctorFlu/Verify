@@ -241,10 +241,6 @@ async function consumeContent(assetId) {
 }
 
 async function main() {
-  /**
-   * remember to fund the intermediate wallet following steps mentioned in https://docs.verifymedia.com/verify-testnet before calling any of the below functions
-   */
-
   // Publish a random string as content.
   const { assetId } = await publishContent();
   console.log(assetId + "\n");

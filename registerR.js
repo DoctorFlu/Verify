@@ -52,7 +52,7 @@ async function registerRoot() {
   console.log("Registering root...");
   const rootWallet = new ethers.Wallet(
     process.env.ROOT_WALLET,
-    rpcProvider //
+    rpcProvider
   );
 
   const intermediateWallet = new ethers.Wallet(
@@ -98,7 +98,7 @@ async function createRegisterSignature(
         ethers.toUtf8Bytes(
           "register(address root,address intermediate,uint256 expiry,uint256 nonce,uint256 chainID,uint256 deadline)"
         )
-      ), //This is the hash of the register function type
+      ), //This is the hash of the register function
       rootWallet.address, // Root Address
       intermediate.address, // Intermediate Address
       expiry, // Expiry of registration

@@ -101,7 +101,7 @@ async function createRegisterSignature(
 async function registerIntermediate() {
   const rootWallet = new ethers.Wallet(
     process.env.ROOT_WALLET,
-    rpcProvider //
+    rpcProvider
   );
 
   const intermediateWallet = new ethers.Wallet(
