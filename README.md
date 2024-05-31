@@ -4,7 +4,7 @@ First we're going to install npm and node.js, which will allow us to run our scr
 1. In your command line terminal, install npm by typing ```npm install -g npm```.
 2. Install node.js [here](https://nodejs.org/en/download/package-manager).
 
-Next, we're going to create our root and intermediate wallets. If you already have wallets through Metamask or Forge that you would like to use, feel free to use those as your wallets and skip steps 3 and 4. You will need two (one for your root and one for your intermediate).
+Next, we're going to create our root and intermediate wallets. If you already have wallets through Metamask or Forge that you would like to use, feel free to use those as your wallets and skip steps 3 and 4. You will need two wallets (one for your root and one for your intermediate).
 
 3. Run ```node gen-wallet.js``` to generate an address and private key for your root wallet. Make sure to save this somewhere safe.
 
